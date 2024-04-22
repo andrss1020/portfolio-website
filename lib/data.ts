@@ -69,7 +69,7 @@ export const experiencesData = [
     description:
       "At this stage of my life I traveled to Vancouver-Canada which allowed me to meet new people and new cultures. While studying a new skill like software quality assurance I am also working on improving my soft skills and my English.",
     icon: React.createElement(FaTeamspeak),
-    date: "2023-204",
+    date: "2023-2024",
   },
 ] as const;
 
