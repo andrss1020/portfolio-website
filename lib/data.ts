@@ -123,13 +123,13 @@ export const projectsData = [
     tags: ["Java", "SQL", "Github"],
     imageUrl: cctbProject,
   },  
-  {
-    title: "Testing Project",
-    description:
-      "Selenium testing project of this portfolio, with different cases to take into account. ",
-    tags: ["Java", "HTML", "CSS", "Selenium", "React", "Next.js", "Tailwind"],
-    //imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Testing Project",
+  //   description:
+  //     "Selenium testing project of this portfolio, with different cases to take into account. ",
+  //   tags: ["Java", "HTML", "CSS", "Selenium", "React", "Next.js", "Tailwind"],
+  //   //imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [
@@ -152,4 +152,5 @@ export const skillsData = [
   "Angular 18",
   "Postman",
   "AWS",
+  "Selenium",
 ] as const;

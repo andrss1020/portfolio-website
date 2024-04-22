@@ -11,7 +11,6 @@ export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
-  console.log('////aaaaaa: ', senderEmail, message);
 
   if (!validateString(senderEmail, 500)) {
     return {
