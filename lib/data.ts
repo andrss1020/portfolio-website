@@ -153,4 +153,5 @@ export const skillsData = [
   "Postman",
   "AWS",
   "Selenium",
+  "Docker",
 ] as const;
