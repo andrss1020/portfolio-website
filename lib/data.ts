@@ -154,5 +154,7 @@ export const skillsData = [
   "AWS",
   "Selenium",
   "Docker",
-  "Jenkins"
+  "Jenkins",
+  "DevOps",
+  "Azure"
 ] as const;

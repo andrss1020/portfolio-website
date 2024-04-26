@@ -49,8 +49,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Andres. </span>
-        <span className="font-bold">I'm a full-stack developer and QA</span> with{" "}
-        <span className="font-bold">4 years</span> of experience. I enjoy
+        <span className="font-bold">I'm a passionate full-stack and QA developer.</span> with{" "}
+        <span className="font-bold">5 years</span> of experience. I enjoy
         <span className="italic">solving problems and creating </span>
         <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">Java, React, Angular, Database</span>.
