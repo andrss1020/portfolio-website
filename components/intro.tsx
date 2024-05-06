@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/C4D03AQHmW7pn7sgNCw/profile-displayphoto-shrink_800_800/0/1603054743757?e=2147483647&v=beta&t=2f4oP9zThJqByA-n4olW7LJbv1QkQhjEj064J9VUGSI"
+              src="https://media.licdn.com/dms/image/D4D03AQHZXDTIcwEo9g/profile-displayphoto-shrink_800_800/0/1714979910800?e=1720656000&v=beta&t=LKoqY39SxGMH6YRq1k-RTo7lwiAr5FSgYux-0nTzYJU"
               alt="Andres photo"
               width="200"
               height="200"
@@ -49,7 +49,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Andres. </span>
-        <span className="font-bold">I'm a passionate full-stack and QA developer.</span> with{" "}
+        <span className="font-bold">I'm a passionate full-stack and QA developer</span> with{" "}
         <span className="font-bold">5 years</span> of experience. I enjoy
         <span className="italic">solving problems and creating </span>
         <span className="italic">sites & apps</span>. My focus is{" "}
