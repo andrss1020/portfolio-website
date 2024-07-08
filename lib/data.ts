@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaTeamspeak } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuHammer } from "react-icons/lu";
 import offertCreditCore from "@/public/offertCreditCore.png";
 import offertCreditMobile from "@/public/offertCreditMobile.jpg";
 import offertCreditWeb from "@/public/offertCreditWeb.jpg";
@@ -9,6 +9,9 @@ import onboarding from "@/public/onboarding.png";
 import parametrizationMaster from "@/public/parametrizationMaster.png";
 import packingLogic from "@/public/packingLogic.png";
 import cctbProject from "@/public/cctbProject.png";
+import automationWebsites from "@/public/automationWebsites.png";
+import kelownaPage from "@/public/kelownaPage.png";
+import terraformAWS from "@/public/terraformAWS.png";
 
 
 export const links = [
@@ -65,12 +68,19 @@ export const experiencesData = [
   },
   {
     title: "Digital Literacy",
-    location: "Canada",
+    location: "Vancouver - Canada",
     description:
       "At this stage of my life I traveled to Vancouver-Canada which allowed me to meet new people and new cultures. While studying a new skill like software quality assurance I am also working on improving my soft skills and my English.",
     icon: React.createElement(FaTeamspeak),
-    date: "2023-2024",
-  },
+    date: "DEC 2023- MAY 2024",
+  },  
+  { title: "Installation Technician",
+    location: "Vancouver - Canada",
+    description:
+      "Working for a company with new tools is a challenge for me and these challenges I have always liked to deal with determination to master them, at this stage I have learned about the Canadian culture and customs and the work environment.",
+    icon: React.createElement(LuHammer),
+    date: "DEC 2023- ACT",
+  }
 ] as const;
 
 export const projectsData = [
@@ -123,13 +133,27 @@ export const projectsData = [
     tags: ["Java", "SQL", "Github"],
     imageUrl: cctbProject,
   },  
-  // {
-  //   title: "Testing Project",
-  //   description:
-  //     "Selenium testing project of this portfolio, with different cases to take into account. ",
-  //   tags: ["Java", "HTML", "CSS", "Selenium", "React", "Next.js", "Tailwind"],
-  //   //imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "Automation Website with Selenium",
+    description:
+      "Automation tests using selenium and java for different web pages. ",
+    tags: ["Java", "HTML", "CSS", "Selenium"],
+    imageUrl: automationWebsites,
+  },
+  {
+    title: "Automatic deployment with jenkins and firebase",
+    description:
+      "Implementation of continuous integration and continuous development with automatic testing on web page. ",
+    tags: ["Java", "HTML", "CSS", "Selenium", "Firebase", "Jenkins"],
+    imageUrl: kelownaPage,
+  },
+  {
+    title: "AWS server creation with terraform",
+    description:
+      "Creation of infrastructure environments in AWS for development, testing, staging and production using terraform. ",
+    tags: ["Java", "HTML", "CSS", "Terraform", "Jenkins"],
+    imageUrl: terraformAWS,
+  },
 ] as const;
 
 export const skillsData = [
@@ -156,5 +180,6 @@ export const skillsData = [
   "Docker",
   "Jenkins",
   "DevOps",
-  "Azure"
+  "Azure",
+  "Terraform"
 ] as const;
