@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4D03AQHZXDTIcwEo9g/profile-displayphoto-shrink_800_800/0/1714979910800?e=1720656000&v=beta&t=LKoqY39SxGMH6YRq1k-RTo7lwiAr5FSgYux-0nTzYJU"
+              src="https://media.licdn.com/dms/image/D4D03AQHZXDTIcwEo9g/profile-displayphoto-shrink_100_100/0/1714979910800?e=1727308800&v=beta&t=T__k_3uTuK2_o1T62mzlmiV9ZSPkzhKByADvdAhfCow"
               alt="Andres photo"
               width="200"
               height="200"
